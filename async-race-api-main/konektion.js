@@ -23,8 +23,8 @@ let craname=document.getElementById('namecar')
              elem.innerHTML = `
              <div class="road">
         
-                 <button data-action="motion"  class="delet" name="deet">A</button>
-         <button data-action="motion2" class="start">B</button> <p class="car_name">${name1}</p>
+                 <button data-action="motion"  class="delet" name="deet">Delete</button>
+          <p class="car_name">${name1}</p>
             <img src="/svg/car.svg" alt="" style="background-color: ${color1};width:50px;height:auto">
 
             <p>____________________________________________________________________________________________________________________</p >
