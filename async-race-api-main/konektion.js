@@ -39,7 +39,7 @@ let craname=document.getElementById('namecar')
         color:color1,
         id:data[i]+1,
       }
-      fetch("http://127.0.0.1:3000", {
+      fetch("http://127.0.0.1:3000/garage", {
         method: "POST", 
         body: JSON.stringify(newPost), 
         headers: {
