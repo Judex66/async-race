@@ -39,7 +39,7 @@ let craname=document.getElementById('namecar')
         color:color1,
         id:data[i]+1,
       }
-      fetch("https://jsonplaceholder.typicode.com/posts", {
+      fetch("http://127.0.0.1:3000", {
         method: "POST", 
         body: JSON.stringify(newPost), 
         headers: {
